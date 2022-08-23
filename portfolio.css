@@ -562,10 +562,12 @@ left: -80px;
 }
 @media screen and (min-width:300px)and (max-width:415px){
     .certificateoneinfo{
-        font-size: 25px;
+        font-size: 10px;
+        line-height: 30px;
     }
     .certificatetwoinfo{
-        font-size: 25px;
+        font-size: 12px;
+        line-height: 30px;
     }
 }
 @media screen and (min-width:570px)and (max-width:950px) {
