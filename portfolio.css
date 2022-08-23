@@ -1,0 +1,644 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container ul li {
+    display: inline-block;
+
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 20px;
+
+
+}
+
+nav ul li a:hover {
+    color: mediumorchid;
+}
+
+.container ul {
+    display: flex;
+
+}
+
+.container ul li:first-child {
+    font-size: x-large;
+    font-family: cursive;
+
+}
+
+.container ul li:not(first-child) {
+    position: relative;
+    display: flex;
+    justify-self: space-around;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+nav ul li a span {
+    color: darkmagenta;
+    font-size: bold;
+    font-family: cursive;
+}
+
+.container {
+    position: fixed;
+}
+
+.sticky {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    display: flex
+}
+
+.container li:nth-child(5),
+.container li:nth-child(2),
+.container li:nth-child(3),
+.container li:nth-child(4) {
+    margin-top: 25px;
+
+}
+
+span .ham {
+    font-size: 40px;
+}
+
+.carousel-inner img {
+    height: 753px;
+   
+}
+
+.myimage img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 13rem;
+    left: 45%;
+    border-radius: 50px;
+    opacity: .91;
+}
+
+.name {
+    position: absolute;
+    top: 25rem;
+    left: 45%;
+    color: whitesmoke;
+}
+
+.name .one {
+    font-size: 50px;
+    position: relative;
+    right: 120px;
+
+}
+
+.name .two {
+
+    position: relative;
+    right: 35px;
+
+}
+
+.icon ul {
+    display: flex;
+    position: absolute;
+    top: 32rem;
+    left: 41%;
+}
+
+.icon ul li {
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.icon ul li i {
+    color: whitesmoke;
+}
+
+.icon ul li i:hover {
+    color: mediumvioletred;
+}
+
+.aboutme {
+    margin: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.aboutme span {
+    color: mediumvioletred;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    min-width: 450px;
+}
+.bg img{
+    margin-top: 40px;
+    width: 100%;
+    height: 150px;
+}
+.certificate{
+    position: relative;
+    top: -100px;
+    margin-left: 650px;
+    color: whitesmoke;
+    /* margin: auto; */
+}
+.certificateoneimg{
+    width: 600px;
+    height: 500px;
+    /* border: 4px solid mediumvioletred; */
+    border-radius: 50px;
+}
+.certificates{
+    display: flex;
+    justify-content: space-around;
+}
+#certificate{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.certificateoneinfo{
+    position: relative;
+    margin-top: 200px;
+    font-size: 20px;
+    line-height: 50px;
+    /* font-family: cursive; */
+}
+.certificatetwoinfo{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 80px;
+    font-size: 20px;
+    line-height: 50px;
+    /* font-family: cursive; */
+}
+.certificatetwoimg{
+    width: 500px;
+    height: 100px;
+    position:absolute;
+   
+    
+}
+.imageone{
+    width: 500px;
+    height: 400px;
+}
+.infotwo{
+    margin-top: 170px;
+    margin-right: 90px;
+}
+.imagetwo{
+    width: 500px;
+    height: 400px;
+}
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 2rem 2rem;
+    
+    vertical-align: middle;
+  }
+
+  .child img{
+    width: 300px;
+    height: 300px;
+  }
+.footimg{
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+}
+.a{
+    background-color: rgb(48, 48, 48);
+    height:min-content;
+    position: absolute;
+    width: 100%;
+    margin-top: 80px;
+    
+}
+.a .a2{
+    margin-left:1rem;
+    color: whitesmoke;
+margin-top: 3rem;
+  font-weight: bolder;
+  font-size:25px;
+}
+.a1 ul{
+    display:flex;
+}
+.a ul li{
+    list-style: none;
+    padding: .1rem;
+    font-size: 22px;
+  margin-left: 20px;
+  
+}
+.a ul li span{
+    color: whitesmoke;
+}
+
+.a{
+    display: flex;
+  justify-content: space-around;
+  
+}
+.b1{
+    margin-left:1rem;
+    color: whitesmoke;
+margin-top: 3rem;
+  font-weight: bolder;
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: .6;
+  padding-bottom: 10px;
+}
+.b ul li{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold;
+} 
+.c p{
+    margin-left:4rem;
+    color: whitesmoke;
+margin-top: 3rem;
+}
+.c span{
+    margin-left:4rem;
+
+font-size: 18px;
+background: var(--bg-gradient-rainbow);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+color: transparent;
+background-clip: text;
+
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c i{
+    color: whitesmoke;
+}
+@media screen and (min-width: 576px) {
+    .ham i {
+        display: none;
+    }
+    #cross{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 792px) {
+    .name .one {
+        font-size: 30px;
+        right: 50px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3),
+    nav ul li:nth-child(4),
+    nav ul li:nth-child(5) {
+        left: -150px;
+        font-size: 20px;
+    }
+    .container ul  {
+        display: list-item;
+    
+    }
+ 
+    .container li:nth-child(1) {
+        margin-left: 100px;
+
+    }
+
+    .sticky {
+        background-color: black;
+        opacity: .9;
+        width: 0px;
+
+        left: 0;
+        height: 751px;
+        transition: all 0.5s ease;
+        position: fixed;
+    }
+
+    #cross {
+        display: none;
+        position: absolute;
+        left: 230px;
+
+    }
+    .one{
+        white-space: nowrap;
+    }
+       
+    #aboutme{
+        font-size: 25px;
+        width: 380px;
+    }
+    .certificate h1{
+        position: relative;
+        margin-left: -530px;
+        color: whitesmoke;
+    }
+    #certificate{
+        border: 1px solid black;
+        margin: 2rem;
+        width: 400px;
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+    .certificateoneimg{
+        width: 350px;
+        height: 400px;
+        
+       
+    }
+    .certificates{
+        flex-wrap: wrap;
+    }
+    .certificatesfour{
+        flex-direction: column-reverse;
+    }
+    .certificatestwo{
+        flex-direction: column-reverse;
+    }
+    .certificateoneinfo{
+        position: relative;
+        top: -130px;
+    }
+    .certificatetwoinfo{
+        top: -130px;
+        /* overflow: auto; */
+    }
+    .infotwo{
+        margin-left: 80px;
+    }
+    #projectss{
+      width: 450px;
+    }
+    .icon ul{
+        left: 35%;
+    }
+    .a{
+        min-width: 447px;
+    
+    }
+    .a1 .a2{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .c p{
+        font-size: 20px;
+        font-weight: lighter;
+        position: absolute;
+        left: -30px;
+        top: 100px;
+    }
+    .c i{
+        font-size: 20px;
+    }
+   
+}
+
+@media screen and (min-width:538px)and (max-width:570px) {
+   
+    #myname{
+        margin-left: 65px;
+    }
+    .certificate h1{
+        position: relative;
+        margin-left: -460px;
+        color: whitesmoke;
+    }
+    
+}
+
+ @media screen and (max-width:415px) {
+   
+    #myname{
+        margin-left: -60px;
+        white-space: nowrap;
+    }
+    .myimage img {
+        width: 150px;
+        height: 150px;
+        margin: auto; 
+         display: block;
+        position: absolute;
+        top: 13rem;
+        left: 33%;
+        border-radius: 50px;
+        opacity: .91;
+    }
+    .one{
+        position: absolute;
+        left: -100px;
+    }
+    .myself .two{
+        
+        left: -80px;   
+    }
+    
+    .icon ul {
+        left: 10%;   
+    }
+    #aboutme{
+        font-size: 20px;
+        width: 250px;
+    }
+    .certificate h1{
+margin-left: -570px;
+    }
+    .certificateoneimg{
+        width: 300px;
+        margin-right:120px ;
+    }
+    #certificate{
+       border: 0ch;
+    }
+    .certificateoneinfo{
+        margin-right: 150px;
+        width: 300px;
+        font-size: 15px;
+       
+        
+    }
+  .fourthcertificate{
+    width: 260px;
+    margin-left: -30px;
+  }
+  .imagethree{
+    position: relative;
+left: -50px;
+
+  }
+  .certificatetwoinfo{
+position: relative;
+left: -100px;
+font-size:15px; 
+    
+  }
+  .infotwo{
+    position: relative;
+left: -80px;
+  }
+  .secondcertificate{
+    width: 260px;
+    margin-left: -30px;
+  }
+  .thirdcertificate{
+    width: 260px;
+    margin-left: -30px;
+  }
+  .information{
+    position: relative;
+    left: -40px;
+  }
+  .child{
+    margin-left: -130px;
+  }
+  .parent{
+    border: 0ch;
+  }
+  .certificatehead h1{
+    margin-left: -600px;
+  }
+  
+  .c p{
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    left: -30px;
+    top: 100px;
+}
+
+
+}
+@media screen and (min-width:300px)and (max-width:415px){
+    .certificateoneinfo{
+        font-size: 25px;
+    }
+    .certificatetwoinfo{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:570px)and (max-width:950px) {
+    .certificates{
+        display: block;
+    }
+    .certificateoneimg{
+        width: 500px;
+    }
+    .secondcertificate{
+       position: relative;
+       top: -500px;
+    }
+    .certificateoneinfo{
+        position: relative;
+        top: -200px;
+    }
+    .infotwo{
+        position: relative;
+        top: 200px;
+    }
+    .information{
+        position: relative;
+        top: -130px;
+        left: 50px;
+    }
+    .fourthcertificate{
+        position: relative;
+        top: -350px;
+    }
+    .infofour{
+        position: relative;
+        top: 320px;
+    }
+    nav ul li:nth-child(3){
+
+        white-space: nowrap;
+    }
+    .certificatehead h1{
+        margin-left: -300px;
+    }
+}
+@media screen and (min-width:570px)and (max-width:800px) {
+    .certificatehead h1{
+        margin-left: -400px;
+    }
+    .projecthead h1{
+        margin-left: -400px;
+    }
+}
+@media screen and (min-width:953px)and (max-width:1100px) {
+    .certificatehead h1{
+        margin-left: -170px;
+    }
+    
+}
+@media screen and (min-width:850px)and (max-width:1100px){
+    .projecthead h1{
+margin-left: -200px;
+    }
+}
+@media screen and (min-width:790px)and (max-width:850px){
+    .projecthead h1{
+margin-left: -250px;
+    }
+}
+.certificates{
+    align-items:center ;
+    justify-content: center;
+}
+.bg img{
+    min-width: 450px;
+}
+#carouselExampleIndicators{
+    overflow-x: hidden;
+}
+.child a h3{
+    color:black ;
+}
+.child a h3:hover{
+    color:mediumvioletred;
+}
