@@ -554,7 +554,7 @@ left: -80px;
     top: 100px;
 }
 }
-@media screen and (min-width:400px)and (max-width:415px){
+@media screen and (min-width:320px)and (max-width:415px){
     .certificateoneinfo{
         font-size: 25px;
     }
