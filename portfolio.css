@@ -543,14 +543,12 @@ left: -80px;
   .certificatehead h1{
     margin-left: -600px;
   }
-  .b{
-    margin-right: 140px;
-  }
+  
   .c p{
     font-size: 20px;
     font-weight: lighter;
     position: absolute;
-    left: -60px;
+    left: -30px;
     top: 100px;
 }
 }
