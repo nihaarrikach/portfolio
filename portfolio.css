@@ -394,7 +394,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
        
     }
     .certificates{
-        flex-wrap: wrap;
+        flex-direction:column;
     }
     .certificatesfour{
         flex-direction: column-reverse;
