@@ -416,9 +416,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     #projectss{
       width: 450px;
     }
-    .icon ul{
-        left: 35%;
-    }
+   
     .a{
         min-width: 447px;
     
@@ -480,7 +478,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     .icon ul {
-        left: 10%;   
+        left: 11%;   
     }
     #aboutme{
         font-size: 20px;
