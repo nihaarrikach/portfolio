@@ -408,10 +408,18 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     .certificatetwoinfo{
         top: -130px;
-        /* overflow: auto; */
+       
     }
-    .infotwo{
+     .infofour{
+        margin-left: 40px;
+
+    }
+    .information{
         margin-left: 80px;
+    }
+   .informationtwo{
+        margin-left: 40px;
+
     }
     #projectss{
       width: 450px;
